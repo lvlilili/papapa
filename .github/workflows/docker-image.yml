@@ -11,5 +11,5 @@ jobs:
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: yangbvv/papapa
-          username: '${{ secret.yangbvv }}'
-          password: '${{ secret.qwert12345 }}'
+          username: '${{ secrets.yangbvv }}'
+          password: '${{ secrets.qwert12345 }}'
